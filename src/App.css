@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    font-size: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,
+h2 {
+    margin-bottom: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background: url(./assets/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 15px;
+    border: 3px solid #040945;
+    border-radius: 5px;
+    background-color: #ff6e8e;
+    color: #040945
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+    background-color: rgb(255, 110, 142, 0.6);
+
+}
+
+label {
+    font-weight: bold;
+    color: #040945
+}
+
+input[type="text"] {
+    flex: 1 1 0;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+input[type="radio"] {
+    margin: 0;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }

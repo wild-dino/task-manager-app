@@ -1,0 +1,12 @@
+.todoItem {
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc(100%);
+    padding: 10px 0;
+}
+
+.todoItem:hover {
+    background-color: #1e0b63;
+}

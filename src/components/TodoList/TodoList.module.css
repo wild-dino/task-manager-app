@@ -1,0 +1,27 @@
+.todosList {
+    position: relative;
+    background-color: #121534;
+    padding: 15px 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.todoListItems {
+    margin-top: 10px;
+    max-height: 60vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.dragger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    cursor:e-resize;
+    height: 100%;
+    border-right: 5px solid #ff6e8e;
+}
+
+

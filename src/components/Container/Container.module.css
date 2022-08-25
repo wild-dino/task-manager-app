@@ -1,0 +1,13 @@
+.gridContainer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 70vw;
+    height: 70vh;
+    display: flex;
+    background-color: #f9faff;
+    transform: translateY(20%);
+    border: 5px solid #040945;
+    border-radius: 10px;;
+}
+
+
